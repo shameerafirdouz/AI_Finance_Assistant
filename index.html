@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Finance Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Finance Assistant</h1>
+        <h2>Expense Category Predictor</h2>
+
+        <form method="POST">
+            <p>Enter a transaction description:</p>
+
+            <input
+                type="text"
+                name="description"
+                placeholder="Example: Pizza order"
+                required
+            >
+
+            <button type="submit">Predict Category</button>
+        </form>
+
+        {% if prediction %}
+        <div class="result">
+            <h3>Transaction: {{ description }}</h3>
+            <h3>Predicted Category: {{ prediction }}</h3>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

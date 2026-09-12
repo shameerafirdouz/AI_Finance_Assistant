@@ -1,0 +1,31 @@
+description,amount,category
+Uber ride,250,Transport
+Bus ticket,30,Transport
+Train ticket,120,Transport
+Petrol refill,1500,Transport
+Auto fare,80,Transport
+Flight booking,4500,Travel
+Hotel booking,3000,Travel
+Restaurant dinner,650,Food
+Pizza order,400,Food
+Coffee shop,180,Food
+Grocery shopping,2200,Groceries
+Supermarket purchase,1800,Groceries
+Vegetables and fruits,750,Groceries
+Electricity bill,1200,Bills
+Mobile recharge,299,Bills
+Internet bill,799,Bills
+Netflix subscription,199,Entertainment
+Movie tickets,500,Entertainment
+Music subscription,99,Entertainment
+Amazon shopping,1500,Shopping
+Clothes purchase,2000,Shopping
+Shoes purchase,1800,Shopping
+Doctor consultation,600,Health
+Medicine purchase,350,Health
+Gym membership,1200,Health
+Online course fee,999,Education
+Book purchase,450,Education
+College fees,5000,Education
+Salary received,35000,Income
+Freelance payment,8000,Income
